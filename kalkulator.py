@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def dodaj():
     a = int(input())
     b = int(input())
@@ -8,3 +9,13 @@ def get_help():
 
 get_help()
 dodaj()
+=======
+def dodaj(a, b):
+    wynik = a + b
+    return wynik
+    
+a = int(input())
+b = int(input())
+wynik = dodaj(a,b)
+print(wynik)
+>>>>>>> zmiana_funkcji_dodawania
